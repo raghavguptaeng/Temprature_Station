@@ -1,34 +1,4 @@
-/*
-#include <dht.h>
 
-dht DHT;
-
-#define DHT11_PIN 2
-
-
-void setup(){
-  Serial.begin(9600);
-  
-}
-
-void loop()
-{
-  int chk = DHT.read11(DHT11_PIN);
-  Serial.print("Temperature = ");
-  Serial.println(DHT.temperature);
-  Serial.print("Humidity = ");
-  Serial.println(DHT.humidity);
-  
-  delay(1000);
-}
-
-void RGB_color(int red_light_value, int green_light_value, int blue_light_value)
- {
-  analogWrite(red_light_pin, red_light_value);
-  analogWrite(green_light_pin, green_light_value);
-  analogWrite(blue_light_pin, blue_light_value);
-}
-*/
 #include "dht.h"
 #define dht_apin A0 // Analog Pin sensor is connected to
  
